@@ -25,18 +25,16 @@ class CreateUsernameViewController: UIViewController {
         !username.isEmpty else {return}
         
         UserService.create(firUser, username: username) { (user) in
-            guard let _ = user else { return }
-            
-            let storyboard = UIStoryboard(name: "Main", bundle: .main)
-            
-            if let initialViewController = storyboard.instantiateInitialViewController() {
-                self.view.window?.rootViewController = initialViewController
-                self.view.window?.makeKeyAndVisible()
-                
+            guard let user = user else {
+                // handle error
+                return
             }
             
+            User.setCurrent(user)
             
-            
+            let initialViewController = UIStoryboard.initialViewController(for: .main)
+            self.view.window?.rootViewController = initialViewController
+            self.view.window?.makeKeyAndVisible()
         }
 
             

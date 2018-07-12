@@ -10,7 +10,6 @@
 		472E79D32D391CA9AB693ECB /* Pods_Makestagram.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7977892398426312A5214A7 /* Pods_Makestagram.framework */; };
 		7A1015EE20F519BC00585C0F /* CreateUsernameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A1015ED20F519BC00585C0F /* CreateUsernameViewController.swift */; };
 		7A5D1BD220EE831D002621A2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A5D1BD120EE831D002621A2 /* AppDelegate.swift */; };
-		7A5D1BD420EE831D002621A2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A5D1BD320EE831D002621A2 /* ViewController.swift */; };
 		7A5D1BD720EE831D002621A2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A5D1BD520EE831D002621A2 /* Main.storyboard */; };
 		7A5D1BD920EE831F002621A2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A5D1BD820EE831F002621A2 /* Assets.xcassets */; };
 		7A5D1BDC20EE831F002621A2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A5D1BDA20EE831F002621A2 /* LaunchScreen.storyboard */; };
@@ -19,6 +18,10 @@
 		7A63F27820EEA118003050C6 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A63F27720EEA118003050C6 /* LoginViewController.swift */; };
 		7A6C90CA20F4254D0014FBE6 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A6C90C920F4254D0014FBE6 /* User.swift */; };
 		7A6E200420F5797800DA56E4 /* UserService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A6E200320F5797800DA56E4 /* UserService.swift */; };
+		7AB5EBF220F7BDA3007F3846 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AB5EBF120F7BDA2007F3846 /* Constants.swift */; };
+		7AB5EBF420F7BE73007F3846 /* Storyboard+Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AB5EBF320F7BE73007F3846 /* Storyboard+Utility.swift */; };
+		7AB5EBFA20F7D918007F3846 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AB5EBF920F7D918007F3846 /* HomeViewController.swift */; };
+		7AB5EBFC20F7D929007F3846 /* FindFriendsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AB5EBFB20F7D929007F3846 /* FindFriendsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,7 +30,6 @@
 		7A1015ED20F519BC00585C0F /* CreateUsernameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateUsernameViewController.swift; sourceTree = "<group>"; };
 		7A5D1BCE20EE831D002621A2 /* Makestagram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Makestagram.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7A5D1BD120EE831D002621A2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		7A5D1BD320EE831D002621A2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		7A5D1BD620EE831D002621A2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7A5D1BD820EE831F002621A2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7A5D1BDB20EE831F002621A2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -37,6 +39,10 @@
 		7A63F27720EEA118003050C6 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		7A6C90C920F4254D0014FBE6 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		7A6E200320F5797800DA56E4 /* UserService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserService.swift; sourceTree = "<group>"; };
+		7AB5EBF120F7BDA2007F3846 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		7AB5EBF320F7BE73007F3846 /* Storyboard+Utility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Storyboard+Utility.swift"; path = "Makestagram/Supporting/Storyboard+Utility.swift"; sourceTree = SOURCE_ROOT; };
+		7AB5EBF920F7D918007F3846 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		7AB5EBFB20F7D929007F3846 /* FindFriendsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindFriendsViewController.swift; sourceTree = "<group>"; };
 		E7977892398426312A5214A7 /* Pods_Makestagram.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Makestagram.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -90,9 +96,10 @@
 		7A63F26B20EE9B25003050C6 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				7A5D1BD320EE831D002621A2 /* ViewController.swift */,
 				7A63F27720EEA118003050C6 /* LoginViewController.swift */,
 				7A1015ED20F519BC00585C0F /* CreateUsernameViewController.swift */,
+				7AB5EBF920F7D918007F3846 /* HomeViewController.swift */,
+				7AB5EBFB20F7D929007F3846 /* FindFriendsViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -100,6 +107,7 @@
 		7A63F26C20EE9B6B003050C6 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				7AB5EBF320F7BE73007F3846 /* Storyboard+Utility.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -134,6 +142,7 @@
 			children = (
 				7A5D1BDD20EE831F002621A2 /* Info.plist */,
 				7A63F26920EE9AC8003050C6 /* GoogleService-Info.plist */,
+				7AB5EBF120F7BDA2007F3846 /* Constants.swift */,
 			);
 			path = Supporting;
 			sourceTree = "<group>";
@@ -312,7 +321,10 @@
 				7A6C90CA20F4254D0014FBE6 /* User.swift in Sources */,
 				7A63F27820EEA118003050C6 /* LoginViewController.swift in Sources */,
 				7A6E200420F5797800DA56E4 /* UserService.swift in Sources */,
-				7A5D1BD420EE831D002621A2 /* ViewController.swift in Sources */,
+				7AB5EBFA20F7D918007F3846 /* HomeViewController.swift in Sources */,
+				7AB5EBF420F7BE73007F3846 /* Storyboard+Utility.swift in Sources */,
+				7AB5EBFC20F7D929007F3846 /* FindFriendsViewController.swift in Sources */,
+				7AB5EBF220F7BDA3007F3846 /* Constants.swift in Sources */,
 				7A1015EE20F519BC00585C0F /* CreateUsernameViewController.swift in Sources */,
 				7A5D1BD220EE831D002621A2 /* AppDelegate.swift in Sources */,
 			);
